@@ -16,7 +16,10 @@ class PhotoUtil {
       currentPage++;
     }
     if (clear != null && clear) {
+      // 刷新
       list.clear();
+      year = DateTime.now().year;
+      month = DateTime.now().month;
     }
 
     try {

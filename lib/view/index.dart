@@ -34,8 +34,8 @@ class _IndexState extends State<Index> {
     super.dispose();
   }
 
-  queryPhoto({int pageNo}) async {
-    List list = await PhotoUtil.queryPhoto(pageNo: pageNo);
+  queryPhoto({int pageNo, bool clear}) async {
+    List list = await PhotoUtil.queryPhoto(pageNo: pageNo, clear: clear);
     if (list != null) {
       setState(() {
         this.list = list;
@@ -70,8 +70,7 @@ class _IndexState extends State<Index> {
   }
 
   Future refresh() async {
-    list = [];
-    return queryPhoto(pageNo: 1);
+    return queryPhoto(pageNo: 1, clear: true);
   }
 
   Future loadMore() async {
