@@ -5,14 +5,21 @@
 > 仅供学习使用，不得用作商业用途。
 
 ## 页面截图
-![首页](./screen/首页.jpg)
-![关于](./screen/关于.jpg)
-![下拉刷新](./screen/下拉刷新.jpg)
-![上拉加载更多](./screen/上拉加载更多.jpg)
-![预览](./screen/预览.jpg)
-![隐藏状态栏](./screen/隐藏状态栏.jpg)
-![双击放大](./screen/双击放大.jpg)
-![分享](./screen/分享.jpg)
+首页![首页](./screen/首页.jpg)
+
+关于![关于](./screen/关于.jpg)
+
+下拉刷新![下拉刷新](./screen/下拉刷新.jpg)
+
+上拉加载更多![上拉加载更多](./screen/上拉加载更多.jpg)
+
+预览![预览](./screen/预览.jpg)
+
+隐藏状态栏![隐藏状态栏](./screen/隐藏状态栏.jpg)
+
+双击放大![双击放大](./screen/双击放大.jpg)
+
+分享![分享](./screen/分享.jpg)
 
 ## 感谢
 - 感谢 [xuelongqy](https://github.com/xuelongqy) 的 [flutter_easyrefresh](https://github.com/xuelongqy/flutter_easyrefresh) 组件（下拉刷新&上拉加载更多）
