@@ -136,7 +136,11 @@ class _IndexState extends State<Index> {
         ],
         elevation: 0,
       ),
-      body: bodyWidget(),
+      body: list.length == 0
+          ? Center(
+              child: CircularProgressIndicator(),
+            )
+          : bodyWidget(),
     );
   }
 }
